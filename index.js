@@ -14,7 +14,20 @@
 
 
 // 2 - masala
-
+// function fn (son){
+//     let arr = [1,2,3,4,5,3,6,7]
+//     let index = []
+//     let count = 1
+//     for(let i in arr){
+//         if (arr[i] === son) {
+//             let property_name = `index${count}`
+//             index.push({[property_name]: +i})
+//             count ++
+//         }
+//     }
+//     return index.length ? index : `${son} soni array da mavjud emas`
+// }
+// console.log(fn(3));
 
 
 
