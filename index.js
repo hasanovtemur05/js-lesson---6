@@ -19,17 +19,13 @@
 
 
 // 3 - masala
-// let obj1 = {name: "mark", age: "18", dateOfBrith: "2005,12,02", gender: "erkak"}
-// let obj2 = {name2: "john", age2: "20", dateOfBrith2: "2002,08,12", gender2: "erkak"}
-// let obj3 = {name3: "marjona", age3: "17", dateOfBrith3: "2007,22,13", gender3: "ayol"}
-// let obj_keys = Object.assign(obj1, obj2, obj3)
-// let key = obj_keys
-// for(let key in obj_keys){
-//     console.log(key);
-// }
-// for(let key in obj_keys){
-//     console.log(obj_keys[key] , "values");
-// }
+let obj = {name: "mark", age: "18", dateOfBrith: "2005,12,02", gender: "erkak"}
+for(let key in obj){
+    console.log("key :", key);
+}
+for(let key in obj){
+    console.log("values :",obj[key]);
+}
 
 
 
@@ -69,27 +65,22 @@
 // 6 - masala
 // let arr = [1,4,2,5,3,8,6,9]
 // function count(n) {
-    
+//     // o'sish tartibi
 //     arr.sort(function(a,b){return a - b})
 //     console.log(arr);
-//     for (let i = 0; i < n.length; i++){
-      
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] == n) {
+//             console.log(i);
+//         }
 //     }
-//     console.log(i);
+//     // kamayish tartibi
+//     arr.sort(function(a,b){return b - a})
+//     console.log(arr);
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] == n) {
+//             console.log(i);
+//         }
+//     }
 // }
-// count(6)
-
-
-
-let nums = [1,2,3,4,5,6,7,8,9];
-let target = +prompt("1dan 9 gacha bo'lgan raqam kiriting");
-function targitItem(nums, target) {
-    for (let i = 0; i < nums.length; i++) {
-        if (nums[i] === target) {
-            return i;
-        }
-    }
-}
-let result = targitItem(nums, target);
-console.log(result); 
+// count(3)
 
