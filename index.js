@@ -19,13 +19,13 @@
 
 
 // 3 - masala
-let obj = {name: "mark", age: "18", dateOfBrith: "2005,12,02", gender: "erkak"}
-for(let key in obj){
-    console.log("key :", key);
-}
-for(let key in obj){
-    console.log("values :",obj[key]);
-}
+// let obj = {name: "mark", age: "18", dateOfBrith: "2005,12,02", gender: "erkak"}
+// for(let key in obj){
+//     console.log("key :", key);
+// }
+// for(let key in obj){
+//     console.log("values :",obj[key]);
+// }
 
 
 
